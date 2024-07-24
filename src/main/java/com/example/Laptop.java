@@ -1,23 +1,12 @@
+
 package com.example;
 
 public class Laptop {
-
-    private String password;
-
-    public String getPassword() {
-        return password;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
-    }
-
-    // Create a new constructor
     public Laptop() {
-        System.out.println("object Created");
+        System.out.println("Laptop object created");
     }
 
-    public void code() {
-        System.out.println("compling...");
+    public void compile() {
+        System.out.println("Compiling");
     }
 }
