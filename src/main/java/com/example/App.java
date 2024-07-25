@@ -11,6 +11,6 @@ public class App {
         
         Laptop obj = (Laptop) context.getBean("laptop"); // You need to give me the samll case
 //        obj.code();
-        System.out.println(obj.getPassword());
+//        System.out.println(obj);
     }
 }
